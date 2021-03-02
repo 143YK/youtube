@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row align">
+        <div class="col-sm-4 col-lg-4">
+
+        </div>
+        <div class="col-sm-1 col-lg-1">
+            <span [routerLink]="['/']" routerLinkActive="active"
+            [routerLinkActiveOptions]="['{exact:true}']" >HOME <div class="bg-color"></div>
+                
+        </span>
+        </div>
+        <div class="col-sm-1 col-lg-1">
+            <span [routerLink]="['/trending']">TRENDINGS</span>
+        </div>
+        <div class="col-sm-1 col-lg-1">
+            <span [routerLink]="['/subscriptions']">SUBSCRIPTIONS</span>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+            
+        </div>
+    </div>
+    <hr>
+</div>
+
+<router-outlet></router-outlet>
